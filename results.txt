@@ -1,0 +1,406 @@
+Windows PowerShell
+Copyright (C) Microsoft Corporation. Tous droits réservés.
+
+Installez la dernière version de PowerShell pour de nouvelles fonctionnalités et améliorations ! https://aka.ms/PSWindows
+
+PS C:\Users\hp\OneDrive\Bureau\molecule article\article.2\dockin\2WFZ> & "C:\Program Files (x86)\The Scripps Research Institute\Vina\vina.exe" --receptor P.pdbqt --ligand lig1.pdbqt --config lig1.txt --log log1.txt --out output1.pdbqt
+#################################################################
+# If you used AutoDock Vina in your work, please cite:          #
+#                                                               #
+# O. Trott, A. J. Olson,                                        #
+# AutoDock Vina: improving the speed and accuracy of docking    #
+# with a new scoring function, efficient optimization and       #
+# multithreading, Journal of Computational Chemistry 31 (2010)  #
+# 455-461                                                       #
+#                                                               #
+# DOI 10.1002/jcc.21334                                         #
+#                                                               #
+# Please see http://vina.scripps.edu for more information.      #
+#################################################################
+
+WARNING: The search space volume > 27000 Angstrom^3 (See FAQ)
+Detected 8 CPUs
+Reading input ... done.
+Setting up the scoring function ... done.
+Analyzing the binding site ... done.
+Using random seed: 1910818832
+Performing search ...
+0%   10   20   30   40   50   60   70   80   90   100%
+|----|----|----|----|----|----|----|----|----|----|
+***************************************************
+done.
+Refining results ... done.
+
+mode |   affinity | dist from best mode
+     | (kcal/mol) | rmsd l.b.| rmsd u.b.
+-----+------------+----------+----------
+   1        -10.8      0.000      0.000
+   2        -10.4      3.488      5.772
+   3        -10.2     18.424     21.489
+   4         -9.4     18.211     20.020
+   5         -9.2      1.931      8.210
+   6         -9.1     20.199     22.475
+   7         -9.0     20.409     22.232
+   8         -8.9      3.450      9.436
+Writing output ... done.
+PS C:\Users\hp\OneDrive\Bureau\molecule article\article.2\dockin\2WFZ>  & "C:\Program Files (x86)\The Scripps Research Institute\Vina\vina.exe" --receptor P.pdbqt --ligand lig2.pdbqt --config lig2.txt --log log2.txt --out output2.pdbqt
+#################################################################
+# If you used AutoDock Vina in your work, please cite:          #
+#                                                               #
+# O. Trott, A. J. Olson,                                        #
+# AutoDock Vina: improving the speed and accuracy of docking    #
+# with a new scoring function, efficient optimization and       #
+# multithreading, Journal of Computational Chemistry 31 (2010)  #
+# 455-461                                                       #
+#                                                               #
+# DOI 10.1002/jcc.21334                                         #
+#                                                               #
+# Please see http://vina.scripps.edu for more information.      #
+#################################################################
+
+WARNING: The search space volume > 27000 Angstrom^3 (See FAQ)
+Detected 8 CPUs
+Reading input ... done.
+Setting up the scoring function ... done.
+Analyzing the binding site ... done.
+Using random seed: 727276840
+Performing search ...
+0%   10   20   30   40   50   60   70   80   90   100%
+|----|----|----|----|----|----|----|----|----|----|
+***************************************************
+done.
+Refining results ... done.
+
+mode |   affinity | dist from best mode
+     | (kcal/mol) | rmsd l.b.| rmsd u.b.
+-----+------------+----------+----------
+   1        -12.4      0.000      0.000
+   2        -11.7      1.753      3.153
+   3         -9.9     16.746     19.863
+   4         -9.8     17.031     20.090
+   5         -9.2     31.133     34.189
+   6         -8.9      3.351     11.408
+   7         -8.7     23.031     26.988
+   8         -8.7     32.495     34.814
+Writing output ... done.
+PS C:\Users\hp\OneDrive\Bureau\molecule article\article.2\dockin\2WFZ>  & "C:\Program Files (x86)\The Scripps Research Institute\Vina\vina.exe" --receptor P.pdbqt --ligand lig3.pdbqt --config lig3.txt --log log3.txt --out output3.pdbqt
+#################################################################
+# If you used AutoDock Vina in your work, please cite:          #
+#                                                               #
+# O. Trott, A. J. Olson,                                        #
+# AutoDock Vina: improving the speed and accuracy of docking    #
+# with a new scoring function, efficient optimization and       #
+# multithreading, Journal of Computational Chemistry 31 (2010)  #
+# 455-461                                                       #
+#                                                               #
+# DOI 10.1002/jcc.21334                                         #
+#                                                               #
+# Please see http://vina.scripps.edu for more information.      #
+#################################################################
+
+WARNING: The search space volume > 27000 Angstrom^3 (See FAQ)
+Detected 8 CPUs
+Reading input ... done.
+Setting up the scoring function ... done.
+Analyzing the binding site ... done.
+Using random seed: -25870044
+Performing search ...
+0%   10   20   30   40   50   60   70   80   90   100%
+|----|----|----|----|----|----|----|----|----|----|
+***************************************************
+done.
+Refining results ... done.
+
+mode |   affinity | dist from best mode
+     | (kcal/mol) | rmsd l.b.| rmsd u.b.
+-----+------------+----------+----------
+   1         -8.4      0.000      0.000
+   2         -8.0      1.673      3.449
+   3         -7.9      1.876      4.111
+   4         -7.9      2.332      8.671
+   5         -7.3      2.453      8.901
+   6         -7.1     20.194     22.683
+   7         -7.0      3.908      9.511
+   8         -6.9      3.370      6.821
+Writing output ... done.
+PS C:\Users\hp\OneDrive\Bureau\molecule article\article.2\dockin\2WFZ>  & "C:\Program Files (x86)\The Scripps Research Institute\Vina\vina.exe" --receptor P.pdbqt --ligand lig4.pdbqt --config lig4.txt --log log4.txt --out output4.pdbqt
+#################################################################
+# If you used AutoDock Vina in your work, please cite:          #
+#                                                               #
+# O. Trott, A. J. Olson,                                        #
+# AutoDock Vina: improving the speed and accuracy of docking    #
+# with a new scoring function, efficient optimization and       #
+# multithreading, Journal of Computational Chemistry 31 (2010)  #
+# 455-461                                                       #
+#                                                               #
+# DOI 10.1002/jcc.21334                                         #
+#                                                               #
+# Please see http://vina.scripps.edu for more information.      #
+#################################################################
+
+WARNING: The search space volume > 27000 Angstrom^3 (See FAQ)
+Detected 8 CPUs
+Reading input ... done.
+Setting up the scoring function ... done.
+Analyzing the binding site ... done.
+Using random seed: 1101749584
+Performing search ...
+0%   10   20   30   40   50   60   70   80   90   100%
+|----|----|----|----|----|----|----|----|----|----|
+***************************************************
+done.
+Refining results ... done.
+
+mode |   affinity | dist from best mode
+     | (kcal/mol) | rmsd l.b.| rmsd u.b.
+-----+------------+----------+----------
+   1         -9.1      0.000      0.000
+   2         -8.5      2.832      4.783
+   3         -8.4      2.662      3.897
+   4         -8.3      1.717      2.202
+   5         -8.1      2.824      5.481
+   6         -7.5      2.003      2.415
+   7         -7.5     20.295     22.266
+   8         -7.4     12.570     14.284
+Writing output ... done.
+PS C:\Users\hp\OneDrive\Bureau\molecule article\article.2\dockin\2WFZ>  & "C:\Program Files (x86)\The Scripps Research Institute\Vina\vina.exe" --receptor P.pdbqt --ligand lig5.pdbqt --config lig5.txt --log log5.txt --out output5.pdbqt
+#################################################################
+# If you used AutoDock Vina in your work, please cite:          #
+#                                                               #
+# O. Trott, A. J. Olson,                                        #
+# AutoDock Vina: improving the speed and accuracy of docking    #
+# with a new scoring function, efficient optimization and       #
+# multithreading, Journal of Computational Chemistry 31 (2010)  #
+# 455-461                                                       #
+#                                                               #
+# DOI 10.1002/jcc.21334                                         #
+#                                                               #
+# Please see http://vina.scripps.edu for more information.      #
+#################################################################
+
+WARNING: The search space volume > 27000 Angstrom^3 (See FAQ)
+Detected 8 CPUs
+Reading input ... done.
+Setting up the scoring function ... done.
+Analyzing the binding site ... done.
+Using random seed: -1292090624
+Performing search ...
+0%   10   20   30   40   50   60   70   80   90   100%
+|----|----|----|----|----|----|----|----|----|----|
+***************************************************
+done.
+Refining results ... done.
+
+mode |   affinity | dist from best mode
+     | (kcal/mol) | rmsd l.b.| rmsd u.b.
+-----+------------+----------+----------
+   1         -9.8      0.000      0.000
+   2         -9.5      1.370      2.712
+   3         -9.3      2.766      6.835
+   4         -9.1      2.011      6.500
+   5         -8.8      3.925      7.011
+   6         -8.6      4.973      9.528
+   7         -8.6      3.943      7.459
+   8         -8.4      2.841      4.690
+Writing output ... done.
+PS C:\Users\hp\OneDrive\Bureau\molecule article\article.2\dockin\2WFZ>  & "C:\Program Files (x86)\The Scripps Research Institute\Vina\vina.exe" --receptor P.pdbqt --ligand lig6.pdbqt --config lig6.txt --log log6.txt --out output6.pdbqt
+#################################################################
+# If you used AutoDock Vina in your work, please cite:          #
+#                                                               #
+# O. Trott, A. J. Olson,                                        #
+# AutoDock Vina: improving the speed and accuracy of docking    #
+# with a new scoring function, efficient optimization and       #
+# multithreading, Journal of Computational Chemistry 31 (2010)  #
+# 455-461                                                       #
+#                                                               #
+# DOI 10.1002/jcc.21334                                         #
+#                                                               #
+# Please see http://vina.scripps.edu for more information.      #
+#################################################################
+
+WARNING: The search space volume > 27000 Angstrom^3 (See FAQ)
+Detected 8 CPUs
+Reading input ... done.
+Setting up the scoring function ... done.
+Analyzing the binding site ... done.
+Using random seed: 125306460
+Performing search ...
+0%   10   20   30   40   50   60   70   80   90   100%
+|----|----|----|----|----|----|----|----|----|----|
+***************************************************
+done.
+Refining results ... done.
+
+mode |   affinity | dist from best mode
+     | (kcal/mol) | rmsd l.b.| rmsd u.b.
+-----+------------+----------+----------
+   1        -11.3      0.000      0.000
+   2        -11.0      1.844      5.874
+   3        -10.9      1.234      3.001
+   4        -10.6      2.748      6.872
+   5        -10.5      2.543      6.446
+   6        -10.2      1.724      2.507
+   7         -9.7      2.612      4.919
+   8         -9.7      1.525      6.001
+Writing output ... done.
+PS C:\Users\hp\OneDrive\Bureau\molecule article\article.2\dockin\2WFZ>  & "C:\Program Files (x86)\The Scripps Research Institute\Vina\vina.exe" --receptor P.pdbqt --ligand lig7.pdbqt --config lig7.txt --log log7.txt --out output7.pdbqt
+#################################################################
+# If you used AutoDock Vina in your work, please cite:          #
+#                                                               #
+# O. Trott, A. J. Olson,                                        #
+# AutoDock Vina: improving the speed and accuracy of docking    #
+# with a new scoring function, efficient optimization and       #
+# multithreading, Journal of Computational Chemistry 31 (2010)  #
+# 455-461                                                       #
+#                                                               #
+# DOI 10.1002/jcc.21334                                         #
+#                                                               #
+# Please see http://vina.scripps.edu for more information.      #
+#################################################################
+
+WARNING: The search space volume > 27000 Angstrom^3 (See FAQ)
+Detected 8 CPUs
+Reading input ... done.
+Setting up the scoring function ... done.
+Analyzing the binding site ... done.
+Using random seed: 1128913288
+Performing search ...
+0%   10   20   30   40   50   60   70   80   90   100%
+|----|----|----|----|----|----|----|----|----|----|
+***************************************************
+done.
+Refining results ... done.
+
+mode |   affinity | dist from best mode
+     | (kcal/mol) | rmsd l.b.| rmsd u.b.
+-----+------------+----------+----------
+   1        -10.9      0.000      0.000
+   2         -9.7      1.343      2.448
+   3         -9.7      7.188     10.248
+   4         -9.2      7.419     10.806
+   5         -9.2      2.556      4.401
+   6         -8.6      5.213      8.670
+   7         -8.5      3.869      5.836
+   8         -8.5      3.031      4.644
+Writing output ... done.
+PS C:\Users\hp\OneDrive\Bureau\molecule article\article.2\dockin\2WFZ>  & "C:\Program Files (x86)\The Scripps Research Institute\Vina\vina.exe" --receptor P.pdbqt --ligand lig8.pdbqt --config lig8.txt --log log8.txt --out output8.pdbqt
+#################################################################
+# If you used AutoDock Vina in your work, please cite:          #
+#                                                               #
+# O. Trott, A. J. Olson,                                        #
+# AutoDock Vina: improving the speed and accuracy of docking    #
+# with a new scoring function, efficient optimization and       #
+# multithreading, Journal of Computational Chemistry 31 (2010)  #
+# 455-461                                                       #
+#                                                               #
+# DOI 10.1002/jcc.21334                                         #
+#                                                               #
+# Please see http://vina.scripps.edu for more information.      #
+#################################################################
+
+WARNING: The search space volume > 27000 Angstrom^3 (See FAQ)
+Detected 8 CPUs
+Reading input ... done.
+Setting up the scoring function ... done.
+Analyzing the binding site ... done.
+Using random seed: 31632836
+Performing search ...
+0%   10   20   30   40   50   60   70   80   90   100%
+|----|----|----|----|----|----|----|----|----|----|
+***************************************************
+done.
+Refining results ... done.
+
+mode |   affinity | dist from best mode
+     | (kcal/mol) | rmsd l.b.| rmsd u.b.
+-----+------------+----------+----------
+   1        -10.8      0.000      0.000
+   2        -10.3      1.271      3.189
+   3        -10.2      0.648      1.085
+   4        -10.0      2.383      4.939
+   5         -9.6      6.178      9.346
+   6         -9.3      3.371      5.140
+   7         -9.1      2.966      4.736
+   8         -8.9      4.981      7.973
+Writing output ... done.
+PS C:\Users\hp\OneDrive\Bureau\molecule article\article.2\dockin\2WFZ>  & "C:\Program Files (x86)\The Scripps Research Institute\Vina\vina.exe" --receptor P.pdbqt --ligand lig9.pdbqt --config lig9.txt --log log9.txt --out output9.pdbqt
+#################################################################
+# If you used AutoDock Vina in your work, please cite:          #
+#                                                               #
+# O. Trott, A. J. Olson,                                        #
+# AutoDock Vina: improving the speed and accuracy of docking    #
+# with a new scoring function, efficient optimization and       #
+# multithreading, Journal of Computational Chemistry 31 (2010)  #
+# 455-461                                                       #
+#                                                               #
+# DOI 10.1002/jcc.21334                                         #
+#                                                               #
+# Please see http://vina.scripps.edu for more information.      #
+#################################################################
+
+WARNING: The search space volume > 27000 Angstrom^3 (See FAQ)
+Detected 8 CPUs
+Reading input ... done.
+Setting up the scoring function ... done.
+Analyzing the binding site ... done.
+Using random seed: -2023567712
+Performing search ...
+0%   10   20   30   40   50   60   70   80   90   100%
+|----|----|----|----|----|----|----|----|----|----|
+***************************************************
+done.
+Refining results ... done.
+
+mode |   affinity | dist from best mode
+     | (kcal/mol) | rmsd l.b.| rmsd u.b.
+-----+------------+----------+----------
+   1         -9.0      0.000      0.000
+   2         -8.9      3.100      4.321
+   3         -8.7      3.469      8.262
+   4         -8.7      3.994      6.448
+   5         -8.6      4.223      8.818
+   6         -8.0      5.264      9.553
+   7         -7.9      5.425      7.984
+   8         -7.7      5.682     10.146
+Writing output ... done.
+PS C:\Users\hp\OneDrive\Bureau\molecule article\article.2\dockin\2WFZ>  & "C:\Program Files (x86)\The Scripps Research Institute\Vina\vina.exe" --receptor P.pdbqt --ligand lig10.pdbqt --config lig10.txt --log log10.txt --out output10.pdbqt
+#################################################################
+# If you used AutoDock Vina in your work, please cite:          #
+#                                                               #
+# O. Trott, A. J. Olson,                                        #
+# AutoDock Vina: improving the speed and accuracy of docking    #
+# with a new scoring function, efficient optimization and       #
+# multithreading, Journal of Computational Chemistry 31 (2010)  #
+# 455-461                                                       #
+#                                                               #
+# DOI 10.1002/jcc.21334                                         #
+#                                                               #
+# Please see http://vina.scripps.edu for more information.      #
+#################################################################
+
+WARNING: The search space volume > 27000 Angstrom^3 (See FAQ)
+Detected 8 CPUs
+Reading input ... done.
+Setting up the scoring function ... done.
+Analyzing the binding site ... done.
+Using random seed: 1123663416
+Performing search ...
+0%   10   20   30   40   50   60   70   80   90   100%
+|----|----|----|----|----|----|----|----|----|----|
+***************************************************
+done.
+Refining results ... done.
+
+mode |   affinity | dist from best mode
+     | (kcal/mol) | rmsd l.b.| rmsd u.b.
+-----+------------+----------+----------
+   1        -10.1      0.000      0.000
+   2         -9.8      1.875      2.185
+   3         -9.8      2.495      8.768
+   4         -9.3      2.576      8.700
+   5         -9.1      1.527      2.109
+   6         -8.8      2.753      8.840
+   7         -8.5      3.437      5.194
+   8         -8.4      3.432      9.619
+Writing output ... done.
+PS C:\Users\hp\OneDrive\Bureau\molecule article\article.2\dockin\2WFZ>
